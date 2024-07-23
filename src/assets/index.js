@@ -18,4 +18,5 @@ export {
   testimonialTwo,
   quote,
   contactImg,
+
 };
