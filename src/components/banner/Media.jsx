@@ -8,7 +8,7 @@ const Media = () => {
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
           <a
-            href="https://www.facebook.com/yourusername"
+            href="https://www.facebook.com/profile.php?id=100072035328558"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -17,7 +17,7 @@ const Media = () => {
             </span>
           </a>
           <a
-            href="https://twitter.com/yourusername"
+            href="/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -26,7 +26,7 @@ const Media = () => {
             </span>
           </a>
           <a
-            href="https://www.linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/kashif-hussain64/"
             target="_blank"
             rel="noopener noreferrer"
           >
