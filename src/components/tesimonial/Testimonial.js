@@ -65,7 +65,7 @@ const Testimonial = () => {
        ),
        customPaging: (i) => (
          <div
-           style={
+           st yle={
              i === dotActive
                ? {
                    width: "12px",
@@ -75,6 +75,7 @@ const Testimonial = () => {
                    borderRadius: "50%",
                    cursor: "pointer",
                  }
+                 //if it is  not active 
                : {
                    width: "12px",
                    height: "12px",
@@ -125,7 +126,7 @@ const Testimonial = () => {
                         Travel Mobile App Design.
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
-                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                        via Upwork - Mar 4, 2019 - Aug 30, 2021 test
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -176,15 +177,17 @@ const Testimonial = () => {
                         Travel Mobile App Design.
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
-                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                        via Upwork - Mar 4, 2020- - Aug 30, 2021 test
                       </p>
                     </div>
-                    <div className="text-yellow-500 flex gap-1">
+                    <div className="text-yellow-500 flex  gap-1">
+                      <RiStarFill />
+                      <RiStarFill />  
                       <RiStarFill />
                       <RiStarFill />
                       <RiStarFill />
-                      <RiStarFill />
-                      <RiStarFill />
+                     
+                      
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
@@ -210,7 +213,7 @@ const Testimonial = () => {
                 />
                 <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Bound - Trolola
+                    Bound - Trolola 
                   </p>
                   <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
                   <p className="text-base tracking-wide text-gray-500">
