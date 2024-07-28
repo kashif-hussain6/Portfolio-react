@@ -20,6 +20,7 @@ const Contact = () => {
   // ========== Email Validation end here ================
 
   const handleSend = (e) => {
+    
     e.preventDefault();
     if (username === "") {
       setErrMsg("Username is required!");
