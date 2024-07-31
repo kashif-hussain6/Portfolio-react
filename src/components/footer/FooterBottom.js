@@ -7,7 +7,7 @@ const FooterBottom = () => {
 
     
         © 2022. All rights reserved by Kashif Hussain 
- main
+ 
       </p>
     </div>
   );
