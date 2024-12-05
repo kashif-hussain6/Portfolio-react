@@ -15,7 +15,9 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-5xl font-bold text-white">
-          Hi, I'm{" "}
+          Hi, I'm{ " "}
+
+
           <span className="text-designColor  text-6xl capitalize">
             Kashif Hussain
           </span>
@@ -36,7 +38,6 @@ const LeftBanner = () => {
           Node.js.
         </p>
       </div>
-      {/* Media */}
       <Media />
     </div>
   );
